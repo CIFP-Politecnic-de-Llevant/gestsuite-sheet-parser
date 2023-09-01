@@ -1,7 +1,7 @@
 package cat.politecnicllevant.gestsuitesheetparser.controller;
 
-import cat.iesmanacor.common.model.Notificacio;
-import cat.iesmanacor.common.model.NotificacioTipus;
+import cat.politecnicllevant.common.model.Notificacio;
+import cat.politecnicllevant.common.model.NotificacioTipus;
 import cat.politecnicllevant.gestsuitesheetparser.restclient.CoreRestClient;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
