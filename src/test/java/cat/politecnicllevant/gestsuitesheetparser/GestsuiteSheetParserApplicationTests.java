@@ -1,4 +1,4 @@
-package cat.iesmanacor.gestsuitesheetparser;
+package cat.politecnicllevant.gestsuitesheetparser;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package cat.iesmanacor.gestsuitesheetparser.restclient;
+package cat.politecnicllevant.gestsuitesheetparser.restclient;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
