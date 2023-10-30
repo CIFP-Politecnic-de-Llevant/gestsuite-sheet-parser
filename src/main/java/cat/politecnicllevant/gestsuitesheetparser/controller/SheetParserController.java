@@ -21,13 +21,13 @@ import java.util.List;
 @RestController
 public class SheetParserController {
 
-    @Autowired
-    private CoreRestClient coreRestClient;
+    private final CoreRestClient coreRestClient;
+    private final Gson gson;
 
-    @Autowired
-    private Gson gson;
-
-
+    public SheetParserController(CoreRestClient coreRestClient, Gson gson) {
+        this.coreRestClient = coreRestClient;
+        this.gson = gson;
+    }
 
     @PostMapping("/draft")
     public ResponseEntity<List<List<String>>> getDraftAlumnes(@RequestBody String idsheet) throws GeneralSecurityException, IOException, MessagingException {
